@@ -7,11 +7,48 @@
   <link rel="stylesheet" href="assets/css/all.css">
 </head>
 <body>
-  <div class="container">
-    <h2>產品列表</h2>
-    <div id="app" class="card-columns">
+  <div class="container-fluid bg-light py-3">
+    <div class="row">
+      <div class="container">
+        <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand">Yuan photoshop</a>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </nav>
+      </div>
     </div>
   </div>
+
+  <main class="container-fluid bg-light pt-20 pb-10 u-px-10vw">
+    <h2 class="text-center c-headerTitle mb-18">外拍主題</h2>
+    <div class="row justify-content-xxl-center" id="serviceItems"></div>
+    </div>
+    <!-- <section class="row">
+      <div class="container">
+      </div>
+    </section> -->
+  </main>
+  <footer class="container-fluid bg-white d-md-flex align-items-center justify-content-between px-20 py-10">
+    <div>
+      <h5>2020 Yuan photography</h5>
+      <p class="mb-0">
+        <a class="text-grayDark" href="https://github.com/gmwu185">JimmyWu GitHub</a>
+      </p>
+    </div>
+    <ul class="small list-unstyled list-inline mb-0">
+      <li class="list-inline-item">
+        <a class="text-grayDark" href="#">Terms of Service</a>
+      </li>
+      <li class="list-inline-item">
+        <a class="text-grayDark" href="#">Privacy Policy</a>
+      </li>
+      <li class="list-inline-item">
+        <a class="text-grayDark" href="#">Cookie Policy</a>
+      </li>
+    </ul>
+  </footer>
   <script src="assets/js/allVendors.js"></script>
   <script src="assets/js/all.js"></script>
 </body>
