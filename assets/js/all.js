@@ -19,7 +19,7 @@ var obj = {
     var str = '';
     console.log('products', products);
     products.forEach(function (item) {
-      str += "\n        <div class=\"col-xl-6 col-xxl-4 mb-12 px-6\">\n          <div class=\"card c-card c-card--hoverShadow border-0\">\n            <div class=\"c-pseudoPhoto c-card__photo--hoverZoomIn\" style=\"background-image: url(".concat(item.imageUrl[0], ");\"></div>\n            <div class=\"card-body p-8\">\n              <h5 class=\"card-title\">").concat(item.title, "</h5>\n              <p class=\"card-text\">").concat(item.content, "</p>\n            </div>\n          </div>\n        </div>\n      ");
+      str += "\n        <div class=\"col-xl-6 col-xxl-4 mb-12 px-6\">\n          <div class=\"h-100 card c-card c-card--hoverShadow border-0\">\n            <div class=\"c-pseudoPhoto c-card__photo--hoverZoomIn\" style=\"background-image: url(".concat(item.imageUrl[0], ");\"></div>\n            <div class=\"card-body p-8\">\n              <h5 class=\"card-title\">").concat(item.title, "</h5>\n              <p class=\"card-text\">").concat(item.content, "</p>\n            </div>\n          </div>\n        </div>\n      ");
     });
     app.innerHTML = str;
   }
