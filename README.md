@@ -11,7 +11,7 @@
 - Gulp 
   - npm 取得的前端套件，整理到 `allVendors.js` 檔上。
   - 另外客製的 JavaScript 內容規劃於 `all.js` 上。
-  - npm BootStrap scss 整合輸出於 `all.css`。
+  - npm BootStrap scss 整合輸出於 `all.css`。
 
 # 使用資源
 - 使用歷年自行規劃的主題式攝影圖片，用於商品列表的卡片封面上 (非經同意使用視為侵權，請自重)。
